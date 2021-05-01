@@ -1,3 +1,4 @@
+
 /dts-v1/;
 
 / {
@@ -8373,6 +8374,43 @@
 					default_exp_time = "2495";
 					embedded_metadata_height = [32 00];
 				};
+				mode2 {
+					mclk_khz = "24000";
+					num_lanes = [32 00];
+					tegra_sinterface = "serial_a";
+					phy_mode = "DPHY";
+					discontinuous_clk = "no";
+					dpcm_enable = "false";
+					cil_settletime = [30 00];
+					active_w = "2028";
+					active_h = "1520";
+					mode_type = "bayer";
+					pixel_phase = "rggb";
+					csi_pixel_bit_depth = "10";
+					readout_orientation = "90";
+					line_length = "9024";
+					inherent_gain = [31 00];
+					mclk_multiplier = "80";
+					pix_clk_hz = "840000000";
+					gain_factor = "16";
+					framerate_factor = "1000000";
+					exposure_factor = "1000000";
+					min_gain_val = "16";
+					max_gain_val = "356";
+					step_gain_val = [31 00];
+					default_gain = "16";
+					min_hdr_ratio = [31 00];
+					max_hdr_ratio = [31 00];
+					min_framerate = "2000000";
+					max_framerate = "179000000";
+					step_framerate = [31 00];
+					default_framerate = "179000000";
+					min_exp_time = "13";
+					max_exp_time = "683709";
+					step_exp_time = [31 00];
+					default_exp_time = "2495";
+					embedded_metadata_height = [32 00];
+				};
 
 				ports {
 					#address-cells = <0x1>;
@@ -8481,6 +8519,43 @@
 					max_framerate = "60000000";
 					step_framerate = [31 00];
 					default_framerate = "60000000";
+					min_exp_time = "13";
+					max_exp_time = "683709";
+					step_exp_time = [31 00];
+					default_exp_time = "2495";
+					embedded_metadata_height = [32 00];
+				};
+				mode2 {
+					mclk_khz = "24000";
+					num_lanes = [32 00];
+					tegra_sinterface = "serial_c";
+					phy_mode = "DPHY";
+					discontinuous_clk = "no";
+					dpcm_enable = "false";
+					cil_settletime = [30 00];
+					active_w = "2028";
+					active_h = "1520";
+					mode_type = "bayer";
+					pixel_phase = "rggb";
+					csi_pixel_bit_depth = "10";
+					readout_orientation = "90";
+					line_length = "9024";
+					inherent_gain = [31 00];
+					mclk_multiplier = "80";
+					pix_clk_hz = "840000000";
+					gain_factor = "16";
+					framerate_factor = "1000000";
+					exposure_factor = "1000000";
+					min_gain_val = "16";
+					max_gain_val = "356";
+					step_gain_val = [31 00];
+					default_gain = "16";
+					min_hdr_ratio = [31 00];
+					max_hdr_ratio = [31 00];
+					min_framerate = "2000000";
+					max_framerate = "179000000";
+					step_framerate = [31 00];
+					default_framerate = "179000000";
 					min_exp_time = "13";
 					max_exp_time = "683709";
 					step_exp_time = [31 00];
